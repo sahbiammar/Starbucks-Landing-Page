@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- title of the website -->
+    <title>Starbucks Landing Page</title>
+    <!-- tab icon -->
+    <link rel="icon" href="images/logo.png"/>
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"> 
+    <!--style css file-->
+    <link rel="stylesheet" href="main.css">
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--aos-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <section>
+        <div class="circle"  data-aos="fade-in" data-aos-delay="150"></div>
+        <header>
+            <a href="#" data-aos="fade-in" data-aos-delay="200"><img src="images/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#"  data-aos="fade-in" data-aos-delay="350">Home</a> </li>
+                <li><a href="#" data-aos="fade-in" data-aos-delay="500">Menu</a> </li>
+                <li><a href="#" data-aos="fade-in" data-aos-delay="650">What's New</a> </li>
+                <li><a href="#" data-aos="fade-in" data-aos-delay="800">Contact</a> </li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox"  data-aos="fade-in" data-aos-delay="1000">
+                <h2>It's not just <br> Coffee <br> it's <span>Starbucks</span></h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/img1.png" class="starbucks"  data-aos="fade-in" data-aos-delay="700">
+            </div>
+            <ul class="thumb">
+                <li  data-aos="fade-in" data-aos-delay="400">
+
+                    <img src="images/thumb1.png" onclick="imgSlider('images/img1.png'); changeCircleColor('#017143')"></li>
+                <li  data-aos="fade-in" data-aos-delay="500">
+
+                    <img src="images/thumb2.png" onclick="imgSlider('images/img2.png'); changeCircleColor('#eb7495')"></li>
+                <li  data-aos="fade-in" data-aos-delay="600">
+
+                    <img src="images/thumb3.png" onclick="imgSlider('images/img3.png'); changeCircleColor('#d752b1')"></li>
+            </ul> 
+            
+            <ul class="sci">
+                <li  data-aos="fade-in" data-aos-delay="300"><a href="#"><img src="images/facebook.png"></a></li>
+                <li  data-aos="fade-in" data-aos-delay="500"><a href="#"><img src="images/instagram.png"></a></li>
+                <li  data-aos="fade-in" data-aos-delay="700"><a href="#"><img src="images/twitter.png"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- js file -->
+    <script src="main.js"></script>
+    <!--aos js-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+</html>
